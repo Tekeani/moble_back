@@ -5,15 +5,6 @@ const connexionRoutes = require("../connexion"); // 📌 Routes de connexion
 const jwt = require("jsonwebtoken")
 const bcrypt = require("bcrypt")
 
-//coucou
-
-app.get("/", (req, res) => {
-  res.send("Hello from Vercel!");
-});
-
-module.exports = app;  // Exporter l’app pour Vercel
-
-
 
 const app = express();
 app.use(express.json());

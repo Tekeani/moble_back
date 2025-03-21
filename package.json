@@ -15,8 +15,7 @@
   "type": "commonjs",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "launch": "node ./api/index.js"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",

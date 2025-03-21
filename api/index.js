@@ -48,6 +48,10 @@ const updateProduct = require("../CRUD_Products/update_products");
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.json({status:"ok"})
+})
+
 //Chemin pour récupérer tous les produits
 app.get("/products", getAllProducts);
 
